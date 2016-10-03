@@ -16,5 +16,5 @@ android:
     - extra-android-m2repository
   licenses:
     - 'android-sdk-license-.+'
-  script: ./gradlew clean build
+script: ./gradlew clean build
    
