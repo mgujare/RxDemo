@@ -3,6 +3,9 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.1"
+    lintOptions {
+          abortOnError false
+      }
     defaultConfig {
         applicationId "com.omg.rx.rxdemo"
         minSdkVersion 16
