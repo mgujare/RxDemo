@@ -22,19 +22,16 @@ local.properties
 
 .idea
 *.iml
-.gradle
 build/
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
 /.idea/*.xml
 /build
-/gradle
-gradlew*
+
 
 
 *.iml
-.gradle
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
