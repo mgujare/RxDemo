@@ -31,4 +31,6 @@ dependencies {
     compile 'io.reactivex:rxjava:1.1.6'
     compile 'com.jakewharton.rxbinding:rxbinding:0.3.0'
     compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    compile 'com.yelp.clientlib:yelp-android:2.0.0'
 }
