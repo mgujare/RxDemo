@@ -35,11 +35,11 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.2.0'
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
     compile 'io.reactivex:rxandroid:1.2.1'
     compile 'io.reactivex:rxjava:1.1.6'
     compile 'com.jakewharton.rxbinding:rxbinding:0.3.0'
     compile 'com.squareup.okhttp3:okhttp:3.4.1'
     compile 'com.jakewharton:butterknife:8.4.0'
     compile 'com.yelp.clientlib:yelp-android:2.0.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha9'
 }
