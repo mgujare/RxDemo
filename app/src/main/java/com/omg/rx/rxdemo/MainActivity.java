@@ -74,8 +74,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public Observable<JSONObject> call() {
                 try {
-                    return Observable.just(getYelpData());
-                } catch (JSONException e) { //InterruptedException | ExecutionException | IOException |
+                    return Observable.just(getDealData());
+                } catch (Exception e) {
                             Log.e("deals", e.getMessage());
                     return Observable.error(e);
                 }
